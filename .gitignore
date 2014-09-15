@@ -10,20 +10,21 @@ build/*
 
 ## ignore private workspace stuff added by Xcode4
 xcuserdata
+xcshareddata
 project.xcworkspace
 *.xcuserdata
 
 ## generic files to ignore
 *~
-*.lock
 *.DS_Store
 *.swp
 *.out
 
 ## my
 tmp/*
-libs/*
+libs/FFmpeg/*
 output/*
 plan
 
 
+KxMovieExample/SampleMovies/*
